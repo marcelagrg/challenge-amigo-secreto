@@ -1,6 +1,6 @@
 # <h1 align = "center"> Sorteador de Amigo Secreto </h1>
 <p align = "center"> <img width="75%" height="75%" alt="image" src="https://github.com/user-attachments/assets/4d634628-9e7c-442e-b4f6-64774b7ff9e3" /></p>
-<p align = "center"> Projeto em Javascript para criar uma lista de amigos e sortear um "Amigo Secreto" no navegador. </p>
+<p align = "center"> Projeto em JavaScript para criar uma lista de amigos e sortear um "Amigo Secreto" no navegador. </p>
 
 ## 🔨 Funcionalidades
 ### 1. `adicionarAmigo()`:
