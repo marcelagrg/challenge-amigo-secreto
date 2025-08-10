@@ -37,7 +37,7 @@
 
 ## 🛠️ Abrir e rodar o projeto
 - Extraia o arquivo .zip em uma pasta de sua escolha.
-- Localize o arquivo ´index.html` e clique com o botão direito sobre ele.
+- Localize o arquivo `index.html` e clique com o botão direito sobre ele.
 - Escolha "Abrir com" e selecione o navegador de sua preferência.
 - O jogo do Amigo Secreto será iniciado e estará pronto para uso.
 
