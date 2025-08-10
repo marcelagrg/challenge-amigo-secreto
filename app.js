@@ -5,7 +5,7 @@ function adicionarAmigo() {
     let input = document.querySelector('input');
     let nome = input.value;
 
-     document.getElementById('resultado').textContent = ''; //Limpa o campo resultado quando um nome é inserido após um sorteio.
+    document.getElementById('resultado').innerHTML = ''; //Limpa o campo resultado quando um nome é inserido após um sorteio.
 
     if (nome == '') {
         alert('Por favor, insira um nome válido.');
@@ -23,7 +23,7 @@ function atualizarLista() {
 
     for (let i = 0; i < amigos.length; i++) {
         const li = document.createElement("li");
-        li.textContent = amigos[i];
+        li.innerHTML = amigos[i];
         listaDeAmigos.appendChild(li);
     }
 }
@@ -42,12 +42,6 @@ function sortearAmigo() {
 
 function reiniciarProcesso() {
     amigos = [];
-    if (amigos.length == 0) {
-        document.getElementById('listaAmigos').innerHTML = '';
-        document.querySelector('input').value = '';
-    } else {
-        document.getElementById('resultado').textContent = '';
-    }
-
-
+    document.getElementById('listaAmigos').innerHTML = '';
+    document.querySelector('input').value = '';
 }
