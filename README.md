@@ -12,13 +12,13 @@
 
 ### 2. `atualizarLista()`:
 - Limpa a lista exibida.
-- Cria um novo elemento <li> para cada nome adicionado.
+- Cria um novo elemento `<li>` para cada nome adicionado.
 - Usa `appendChild()` para inserir os elementos dentro da lista.
 
 ### 3. `sortearAmigo()`:
 - Verifica se a lista não está vazia.
 - Sorteia um índice aleatório com `Math.random()`.
-- Exibe o nome presente no indíce sorteado.
+- Exibe o nome presente no indíce sorteado utilizando o elemento `resultado`.
 
 ### (Bônus) `reiniciarProcesso()`:
 - Limpa o array `amigos` e o campo de entrada.
@@ -37,7 +37,7 @@
 
 ## 🛠️ Abrir e rodar o projeto
 - Extraia o arquivo .zip em uma pasta de sua escolha.
-- Localize o arquivo index.html e clique com o botão direito sobre ele.
+- Localize o arquivo ´index.html` e clique com o botão direito sobre ele.
 - Escolha "Abrir com" e selecione o navegador de sua preferência.
 - O jogo do Amigo Secreto será iniciado e estará pronto para uso.
 
