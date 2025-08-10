@@ -26,7 +26,7 @@
   ``` javascript
   document.getElementById('resultado').innerHTML = '';`
 
-## 🚀 Como usar
+## 💻 Como usar
 - Digite o nome de um amigo no campo de entrada.
 - Clique em **Adicionar** para incluir o nome na lista.
 - Clique em **Sortear** para sortear o amigo secreto.
@@ -41,7 +41,7 @@
 - Escolha "Abrir com" e selecione o navegador de sua preferência.
 - O jogo do Amigo Secreto será iniciado e estará pronto para uso.
 
-## 🧰 Tecnologias Utilizadas
+## ✔️ Tecnologias Utilizadas
 ![Tecnologias](https://skillicons.dev/icons?i=html,css,javascript)
 
 
